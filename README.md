@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajpara Shailesh | Social Links</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            background-color: #121212;
+            color: white;
+            margin: 0;
+            padding: 50px 20px;
+        }
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid gold;
+            margin-bottom: 15px;
+            object-fit: cover;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+        p {
+            color: #bbb;
+            margin-bottom: 30px;
+        }
+        .container {
+            max-width: 400px;
+            margin: auto;
+        }
+        .link-card {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #1e1e1e;
+            color: white;
+            text-decoration: none;
+            margin-bottom: 15px;
+            padding: 15px;
+            border-radius: 12px;
+            border: 1px solid #333;
+            transition: 0.3s;
+            font-weight: 500;
+        }
+        .link-card i {
+            margin-right: 15px;
+            font-size: 20px;
+            width: 25px;
+        }
+        /* Hover Effects */
+        .link-card:hover {
+            background: gold;
+            color: black;
+            transform: translateY(-3px);
+        }
+        .instagram:hover { border-color: #E1306C; }
+        .facebook:hover { border-color: #1877F2; }
+        .snapchat:hover { border-color: #FFFC00; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://via.placeholder.com/150" alt="Rajpara Shailesh" class="">
+        
+        <h1>Rajpara Shailesh</h1>
+        <p>Connect with me on social media</p>
+
+        <a href="https://www.instagram.com/mr_shailesh_5770/" class="link-card instagram" target="_blank">
+            <i class="fab fa-instagram"></i> Instagram
+        </a>
+
+        <a href="https://www.facebook.com/share/18DLR2X7tC/" class="link-card facebook" target="_blank">
+            <i class="fab fa-facebook"></i> Facebook
+        </a>
+
+        <a href="https://www.snapchat.com/add/sallurajpara001/" class="link-card snapchat" target="_blank">
+            <i class="fab fa-snapchat"></i> Snapchat
+        </a>
+    </div>
+
+</body>
+</html>
